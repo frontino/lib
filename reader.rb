@@ -5,7 +5,9 @@ class Reader
 
   def read_lines
     @line.each do |line|
+      lines = []
       lines << Line.new(line)
     end
     lines
+  end
 end
